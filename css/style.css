@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.perspective {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.perspective.ten_em {
+  -webkit-perspective: 10em;
+}
+.perspective.twenty_em {
+  -webkit-perspective: 20em;
+}
+.perspective.thirty_em {
+  -webkit-perspective: 30em;
+}
+.perspective.forty_em {
+  -webkit-perspective: 40em;
+}
+.perspective.fifty_em {
+  -webkit-perspective: 50em;
+}
+.perspective.sixty_em {
+  -webkit-perspective: 60em;
+}
+.perspective.seventy_em {
+  -webkit-perspective: 70em;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #0099ff;
+  display: inline-block;
+  -webkit-transform: rotateY(90deg);
+}

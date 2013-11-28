@@ -1,0 +1,53 @@
+@import "variables.less";
+
+* {
+  box-sizing: border-box;
+}
+
+.perspective{
+
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+
+  &.ten_em{
+    -webkit-perspective:10em;
+  }
+
+  &.twenty_em{
+    -webkit-perspective:20em;
+  }
+
+  &.thirty_em{
+    -webkit-perspective:30em;
+  }
+
+  &.forty_em{
+    -webkit-perspective:40em;
+  }
+
+  &.fifty_em{
+    -webkit-perspective:50em;
+  }
+
+  &.sixty_em{
+    -webkit-perspective:60em;
+  }
+
+   &.seventy_em{
+    -webkit-perspective:70em;
+  }
+
+}
+
+
+
+.square{
+height:@height;
+width:@width;
+background-color:@blue;
+display:inline-block;
+-webkit-transform: rotateY(90deg);
+}
+  
+  
